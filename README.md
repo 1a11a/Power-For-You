@@ -1,6 +1,6 @@
 # Power For You
 
-# GRP_131 -  SDG – Affordable and clean energy
+# GRP_131 - | SDG – Affordable and clean energy
 
 <h4>Members</h4> 
 <ul>
