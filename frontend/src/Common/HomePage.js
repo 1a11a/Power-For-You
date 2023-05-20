@@ -1,6 +1,5 @@
 import React from "react";
 import '../assets/css/Homepage.css'
-
 import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
 
@@ -25,8 +24,8 @@ function HomePage() {
             />
             <h2>Area</h2>
           </div>
-        </Link>
-        <div to={"/list_customer"} className="ml-4">
+        </Link  >
+        <Link to={"/list_customer"} className="ml-4">
           <div className="m-3 card" style={{ width: "20rem", height: "25rem" }}>
             <img
               src="https://cdn-icons-png.flaticon.com/512/4814/4814961.png"
@@ -35,7 +34,7 @@ function HomePage() {
             />
             <h2>Customer</h2>
           </div>
-        </div>
+        </Link>
 
         <Link to={"/list_power"} className="ml-4">
           <div className="m-3 card" style={{ width: "20rem", height: "25rem" }}>

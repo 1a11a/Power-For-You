@@ -1,4 +1,6 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function NavBar() {
   return (
@@ -23,28 +25,28 @@ function NavBar() {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active ">
                 <a className="nav-link" href="/">
-                  Home <span className="sr-only ">(current)</span>
+                  Home <span className="sr-only "></span>
                 </a>
               </li>
 
               <li className="nav-item active">
                 <a className="nav-link" href="/list_customer">
-                  Customer<span className="sr-only">(current)</span>
+                  Customer<span className="sr-only"></span>
                 </a>
               </li>
               <li className="nav-item active">
                 <a className="nav-link disabled" href="/list_staff">
-                  Staff <span className="sr-only">(current)</span>
+                  Staff <span className="sr-only"></span>
                 </a>
               </li>
               <li className="nav-item active">
                 <a className="nav-link disabled" href="/list_power">
-                  Power Source<span className="sr-only">(current)</span>
+                  Power Source<span className="sr-only"></span>
                 </a>
               </li>
               <li className="nav-item active">
                 <a className="nav-link disabled" href="/list_area">
-                  Area <span className="sr-only">(current)</span>
+                  Area <span className="sr-only"></span>
                 </a>
               </li>
             </ul>
