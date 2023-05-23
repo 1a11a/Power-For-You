@@ -5,6 +5,9 @@ import HomePage from "./Common/HomePage";
 import AddCustomer from "./Components/Customer/AddCustomer";
 import ListCustomer from "./Components/Customer/AllCustomerList";
 import ViewAddCustomer from "./Components/Customer/ViewAddCustomer";
+import AddPower from "./Components/Power/AddPower";
+import ListPower from "./Components/Power/AllPowerList";
+import ViewAddPower from "./Components/Power/ViewAddPower";
 
 
 function App() {
@@ -25,6 +28,11 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+
+
+          <Route path="/add_power" element={<AddPower />} />
+          <Route path="/list_power" element={<ListPower />} />
+          <Route path="/view_add_power/:id" element={<ViewAddPower />} />
 
 
           <Route path="/add_customer" element={<AddCustomer />} />

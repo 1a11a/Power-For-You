@@ -10,6 +10,7 @@
 <li>IT20247522 Balasuriya W.C.H.</li>
 </ul>
 
-<h6>Customer Manegment - IT20088378 </h6>
- <p>In this part All customer deatails will be manege</p>
+<h6>power sources Manegment - IT20164294 </h6>
+ <p>In our project, my component is power source management.in my component I create crud operation for Insert,Update,Delete and Search.The power sources are fossil fuels,nuclear power,renewable energy sources(solar power,wind power,geothermal power,biomass)
+</p>
 
